@@ -35,7 +35,7 @@
 4. Write a statement using `a` and `b` that evaluates to `true`.
   - console log the result to terminal
 
-  For each expression below, indicate whether it is 'truthy' or 'falsey' by assigning a variable a value of either true or false:
+For each expression below, indicate whether it is 'truthy' or 'falsey' by assigning a variable a value of either true or false:
 
 5. true && false
 6. true && 1 != 1
@@ -49,6 +49,7 @@
 
 ### Challenge 2: Numbers
 Refer to the [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math) about `Math`.
+
 1. Create a variable `d` and set it equal to a `10`.
 2. Create a variable `e` and set it equal to `13.445`.
 3. Console log the difference.
@@ -62,6 +63,7 @@ Refer to the [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/
 
 ### Challenge 3: Strings
 Refer to the [String methods listed in MDN Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
+
 1. Create a variable called `myName` and set it equal to your first name.
 2. Create a variable called `myFavoriteThing` and set it equal to `"long walks on the beach."`
 3. Create a variable called `myQuote`. Using string interpolation, use `myName` and `myFavoriteThing` to output "Hi, my name is Christine and I like long walks on the beach." Except it should say your name, not Christine. Mind the spacing!
@@ -74,6 +76,7 @@ Refer to the [String methods listed in MDN Docs](https://developer.mozilla.org/e
 9. :dart: Commit -m "Commit 3: String Skills"
 
 ### Challenge 4: Arrays
+
 1. Create a variable `coolArray` and set it equal to an empty array.
 2. Set the variable `coolArray` to an array with 3 Strings and 3 Numbers.
 3. Console log the last element of the array.
@@ -105,9 +108,10 @@ Add the following object to `script.js` and write code to access/change the prop
 5. Include a new key in heart object called 'color', and set the value to "red".
 6. Make a function inside the heart object that changes the color to a value of the user's choosing.
 7. Invoke the color function and set the color to 'black', and console.log the color.
-:dart: Commit -m "Commit 5: Object Skills"
+8. :dart: Commit -m "Commit 5: Object Skills"
 
 ### Challenge 6: The Final Challenge!
+
 You're almost done! You've had a good warm up with Javascript basics. Now let's solidify your knowledge with the ALL concepts you've learned so far.
 
 Answer the questions in `script.js` in the form of a comment (short answers).
