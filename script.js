@@ -23,3 +23,12 @@ console.log(a !== b)
 // 12. isNaN(undefined)
 // 13. :dart: Commit -m "Commit 1: Boolean Skills"
 
+let prob5 = false;
+let prob6 = false;
+let prob7 = false;
+let prob8 = true;
+let prob9 = false; 
+let prob10 = false;
+let prob11 = false;
+let prob12 = false;
+let prob13 = true;
