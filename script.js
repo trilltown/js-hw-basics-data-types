@@ -32,3 +32,23 @@ let prob10 = false;
 let prob11 = false;
 let prob12 = false;
 let prob13 = true;
+
+// ### Challenge 2: Numbers
+// Refer to the [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math) about `Math`.
+
+// 1. Create a variable `d` and set it equal to a `10`.
+// 2. Create a variable `e` and set it equal to `13.445`.
+// 3. Console log the difference.
+// 4. In the next line, set `e` equal to `Infinity`.
+// 5. Console log the difference.
+// 6. Using [Math.min](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math), create a variable called `minNumber` and set it equal to the smaller value between `d` and `e`.
+// 7. Using [Math](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math), create a variable called `superPower`, set it equal to `9000 to the power of one-half`.
+// 8. Using [Math](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math), create a variable called `randomNum` and set it equal to a random number **rounded down** between 1 and 10.
+// 9. Console log the result of `randomNum` and make sure there are **no** decimals.
+// 10. :dart: Commit -m "Commit 2: Number Skills"
+
+let d = 10;
+let e = 13.445;
+console.log(Math.floor(e-d))
+e = Infinity
+console.log(Math.floor(e-d))
