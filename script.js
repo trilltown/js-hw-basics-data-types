@@ -49,6 +49,101 @@ let prob13 = true;
 
 let d = 10;
 let e = 13.445;
-console.log(Math.floor(e-d))
+console.log(e-d)
 e = Infinity
 console.log(Math.floor(e-d))
+let minNumber = Math.min(e, d)
+console.log(minNumber)
+let superPower = Math.pow(9000, .5)
+console.log(superPower)
+let randomNum = Math.floor(Math.random() * 10)
+console.log(randomNum)
+
+// ### Challenge 3: Strings
+// Refer to the [String methods listed in MDN Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
+
+// 1. Create a variable called `myName` and set it equal to your first name.
+// 2. Create a variable called `myFavoriteThing` and set it equal to `"long walks on the beach."`
+// 3. Create a variable called `myQuote`. Using string interpolation, use `myName` and `myFavoriteThing` to output "Hi, my name is Christine and I like long walks on the beach." Except it should say your name, not Christine. Mind the spacing!
+// 4. Using a different string interpolation method (string literals?), console log the exact same output.
+// 5. Create a variable called `number` and set it equal to `10`.
+// 6. Create a variable called `doesItWork` and set it equal to `myName + number`. Console log it. Is it what you expected?
+// 7. Create a variable called `thirdCharacter` and set it equal to the third character in `myName`. Console logging `thirdCharacter` should give you back only the 3rd letter in your name.
+// 8. Create a variable called `secondWord`. Using [slice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice) on `myFavoriteThing`, set `secondWord` equal to the string `"walks"` (no spaces).
+//   - `var secondWord = "walks"` does not count.
+// 9. :dart: Commit -m "Commit 3: String Skills"
+
+let myName = "Phillip"
+let myFavoriteThing = "long walks on the beach"
+let myQuote = `Hi, my name is ${myName} and I like ${myFavoriteThing}.`
+let myQuote2 = "Hi, my name is " + myName + " and I like " + myFavoriteThing + "." 
+console.log(myQuote)
+console.log(myQuote2)
+let number = 10
+let doesItWork = myName + number 
+console.log(doesItWork)
+let thirdCharacter = myName[2]
+console.log(thirdCharacter)
+let secondWord 
+
+// ### Challenge 4: Arrays
+
+// 1. Create a variable `coolArray` and set it equal to an empty array.
+// 2. Set the variable `coolArray` to an array with 3 Strings and 3 Numbers.
+// 3. Console log the last element of the array.
+// 4. Set the second value of `coolArray` to the string `"Nunchuck Skills"`.
+// 5. Set the third value of `coolArray` to the Number 100.
+// 6. Push the Boolean value `true` into `coolArray`.
+// 7. Console log the data type of the third element of the array.
+// 8. Console log `coolArray`. Does it reflect all the above changes?
+// 9. :dart: Commit -m "Commit 4: Array Skills"
+
+let coolArray = []
+coolArray = ["Hello", "World", "Monday",1,2,3]
+console.log(coolArray[5])
+coolArray[1] = "Nunchuck Skills"
+console.log(coolArray)
+coolArray[2] = 100
+console.log(coolArray)
+coolArray.push(true)
+console.log(coolArray)
+console.log(typeof coolArray[2])
+console.log(coolArray)
+
+// ### Challenge 5: Objects
+
+// Add the following object to `script.js` and write code to access/change the properties for the `heart` object:
+
+//   ```
+//   var heart = {
+//     bpm : 140,
+//     increaseBpm : function(value) {
+//       this.bpm += value;
+//     }
+//   }
+//   ```
+
+// 1. Create a variable called `bpm` and set it equal to heart's bpm value.
+//   - `var bpm = 140` does NOT count! Access `140` some how.
+// 2. Set heart's bpm to `120`.
+// 3. Write a new function within the heart object that will decrease bpm by a value of the user's choosing.
+// 4. Invoke the increaseBpm function and the decreaseBpm function and console.log the results.
+// 5. Include a new key in heart object called 'color', and set the value to "red".
+// 6. Make a function inside the heart object that changes the color to a value of the user's choosing.
+// 7. Invoke the color function and set the color to 'black', and console.log the color.
+// 8. :dart: Commit -m "Commit 5: Object Skills"
+
+let heart = {
+    bpm: 140,
+    color: "red",
+    increaseBpm: function(value) {
+        this.bpm += value;
+    },
+    decreaseBpm: function(value) {
+        this.bpm -= value;
+    }
+
+}
+
+let bpm = heart.bpm 
+console.log(bpm)
