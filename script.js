@@ -73,7 +73,7 @@ console.log(randomNum)
 //   - `var secondWord = "walks"` does not count.
 // 9. :dart: Commit -m "Commit 3: String Skills"
 
-let myName = "Phillip"
+let myName = "Phillip" 
 let myFavoriteThing = "long walks on the beach"
 let myQuote = `Hi, my name is ${myName} and I like ${myFavoriteThing}.`
 let myQuote2 = "Hi, my name is " + myName + " and I like " + myFavoriteThing + "." 
@@ -84,7 +84,8 @@ let doesItWork = myName + number
 console.log(doesItWork)
 let thirdCharacter = myName[2]
 console.log(thirdCharacter)
-let secondWord 
+let secondWord = myFavoriteThing.slice(5, 11)
+console.log(secondWord)
 
 // ### Challenge 4: Arrays
 
